@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(232, 250, 215);
+   min-height: 10%;
+}
+.navbar{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar1{
+    height: 70px;
+    display: flex;
+    flex-direction:start;
+}
+.logo1{
+display: flex;
+justify-content: flex-end;
+}
+.logo{
+    width: 70px;;    
+}
+.titulo1{
+    display: flex;
+    flex-direction: column-reverse; 
+    align-items: center;
+}
+.titulo{
+    width: 50%;
+    height: 30%;
+    font-size: 35px;
+}
+.subtitulo{
+    width: 25%;
+   height: 20%;
+    font-size: 20px;
+}
+.ordena{
+    font-size: 25px;
+}
+.pestaña{
+    text-decoration: none;
+    background-color: yellow;
+    color: blue;
+    font-style: oblique;
+    margin: 8px;
+    border: 4px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sobre{
+    font-size: 50px
+    
+}
+main{
+    background-color: rgb(140, 158, 92);
+   min-height: 80%;
+}
+.img-principal{
+    width: 100%;
+    height: 265px;
+    object-fit: cover; 
+}
+.frase1{
+    width: 100%;
+    display: flex; 
+justify-content: space-evenly;
+     padding: 10px;
+    }
+    .img2{
+        width:  200px;
+        height: 180px;   
+        }
+ .fraseUno{
+    width: 15%;   
+}
+.sobre1{
+    display: flex;
+    align-items: center;
+}
+.foto3{
+    width: 200px;
+    height: 148px;
+    margin-bottom: 2%;
+    margin-left: 6%;
+}
+.tres{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;   
+}
+.trio{
+    font-size: 20px;
+    width: 33%;
+    margin: 4%
+}
+.contact1{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    height: 100%;
+    font-size: 340%;
+}
+.foto-cont{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fotocontact{
+    width: 100%;
+    height: 422px;    
+}
+.finish3{
+    font-style: oblique;
+    font-size: large;
+    display: flex;
+    justify-content: space-around
+}
+footer{
+    background-color: coral ;
+    min-height: 20%;
+    text-align: center;    
+}
+.main4{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.detalle{
+    padding: 20px 0px 0px 20px;
+    font-size: 4vh;
+}
+.lista{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.li{
+    padding: 20px 0px 20px 100px;
+    font-size: 18px;
+}
+.img4{
+    width: 180px;
+    height: 230px;
+    object-fit: cover;
+    padding: 10px;
+}
+.beneficios{
+    display: flex;
+    justify-content: center;
+}
+.consejos{
+    display: flex;
+    justify-content: center;
+}
+.layout{
+    padding: 50px;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;  
+}
+table{
+    height: 55vh;
+    background-color: aquamarine;
+    text-align: center;
+    border-collapse: collapse;
+}
+table, th, td, tr{
+    border: 1px solid black;
+}
+
+
+   
